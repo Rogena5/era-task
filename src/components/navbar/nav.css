@@ -1,0 +1,9 @@
+.nav {
+    background: #387486;
+}
+.nav .nav-link { color : orangered}
+.nav .nav-link:hover {color: white }
+
+  @media (max-width: 600px){
+    .nav .nav-link{font-size: 12px;}
+  }

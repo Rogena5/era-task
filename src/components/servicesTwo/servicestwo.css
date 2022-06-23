@@ -1,0 +1,35 @@
+.servicestwo{
+    text-align: center;
+}
+ .servicestwo h5{
+    font-weight: bold;
+    font-size:30px;
+}
+
+.row img{
+    border-radius: 10px;
+    width: 100%;
+    height: 500px;
+}
+
+.orange{
+    width: 100%;
+    height: 500px;
+    background: orangered;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .row img{
+        border-radius: 10px;
+        width: 50%;
+        height: 300px;
+        margin: 10px;
+    }
+    
+    .servicestwo h5{font-size: 15px;}
+}
+
+@media (max-width: 768px) {
+    .orange{display: none;}
+}

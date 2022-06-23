@@ -1,0 +1,51 @@
+.icons{
+    display: flex;
+    justify-content: space-arround;
+    gap: 10px;
+}
+.icon{
+    font-size: 30px;
+    align-self: center;
+}
+small{color:white}
+h3{
+    color: orangered;
+    padding: 20px 0;
+    font-size: 20px;
+}
+.credit{
+    background: orangered;
+    color: white;
+    font-size: 12px;
+    padding: 7px 20px;
+    text-align: center;
+}
+.logo-footer{
+    height: 200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-footer:before{
+    content: "";
+    position: absolute;
+    background: orangered;
+    width: 100%;
+    top: 10px;
+    height: 10px;
+}
+
+.logo-footer:after{
+    content: "";
+    position: absolute;
+    background: orangered;
+    width: 100%;
+    bottom: 10px;
+    height: 10px;
+}
+
+.footer{height: 500px;
+    overflow: hidden
+}
+

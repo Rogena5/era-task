@@ -1,0 +1,25 @@
+.badge{
+    background: orangered;
+    color: black;
+    padding: 10px;
+}
+.lighter{
+    color: grey;
+    font-size: 50px;
+    margin-top: 50px;
+    padding: 40px;
+}
+.padges p{
+    color: white;
+}
+
+
+
+@media (max-width: 1200px){
+    .lighter{
+        font-size: 20px;
+    }
+    .padges p{
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,16 @@
+.navbar{height: 70px}
+
+.icons {
+    color: orangered;
+    padding: 0px 3px;
+}
+.call .bold {font-weight: bold}
+.light {
+    color: grey;
+    font-size: 12px;
+    font-weight: bold;
+}
+@media (max-width: 600px){
+    .light {
+        font-size: 10px;
+}}

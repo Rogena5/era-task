@@ -1,0 +1,43 @@
+
+    .contentOne-aboutone h5{
+        color:orangered;
+        font-size: 30px;
+    }
+    .section-text{
+        color:white;
+    }
+    .section-img-overlay{
+        position: relative;
+    }
+    .contentOne-aboutone{
+        position: absolute;
+        text-align: center;
+        top: 40px;
+        left: 58%;
+        transform: translateX(-50%);
+        
+    }
+    .contentOne-aboutone p{font-size: 18px; color:white;}
+
+        .contentTwo-abouttwo{
+        color: white;
+        position: absolute;
+        right: -30px;
+        bottom: 40px;
+    }
+
+    .contentTwo-abouttwo p {
+        font-size: 10px;
+    }
+
+    .contentTwo-abouttwo p:before{
+        content: "lorem inor inory dolor dolor ipsum dolo dolo dolo dolo";
+        color:orangered;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    @media (max-width: 800px){
+        .contentOne-aboutone h5{font-size: 20px;}
+        .contentOne-aboutone p{font-size: 15px;}
+    }

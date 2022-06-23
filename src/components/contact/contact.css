@@ -1,0 +1,49 @@
+.contact{
+    background: rgba(56,116,134);
+    padding:50px;
+}
+
+.contact-text{color: white;}
+.form{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 9px;
+    margin: 8px;
+}
+.control{
+    background-color: silver;
+    border: none;
+    border-radius: 20px;
+    text-align: start;
+    padding: 8px 17px;
+    
+}
+
+.message{
+    width: 100%;
+    height: 100%;
+    padding: 22px ;
+}
+
+.btnform{
+    background: orangered;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    padding: 8px;
+}
+
+@media(max-width:800px){
+    .control{
+        border-radius: 17px;
+        text-align: start;
+        padding: 4px 10px;
+    }
+    .contact-text{font-size: 13px;}
+    
+}
+
+
+
